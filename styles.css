@@ -124,12 +124,22 @@ section{
 }
 
 /* TYPOGRAFI */
+h2{
+    font-family: "larken", sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 4vw;
+    line-height: 125%;
+    color: #01385F;
+    margin-bottom: 25px;
+}
+
 h3{
     font-family: "larken", sans-serif;
     font-weight: 500;
     font-style: medium;
-    font-size: 50px;
-    line-height: 53px;
+    font-size: 3.5vw;
+    line-height: 125%;
     color: #01385F;
     margin-bottom: 25px;
 }
@@ -137,7 +147,7 @@ h3{
 p{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 22px; 
+    font-size: 1.5vw; 
     color: #000;
     line-height: 165%;
     margin-bottom: 10px;
@@ -200,22 +210,27 @@ p{
         height: auto;
         margin-left:20px;
         margin-right:20px;
-    }
-    
-    #forside{
-        background-image:url("images/stenpartietaaen.jpg");
-        background-repeat: no-repeat;
-        background-position: 50%;
+        display:block;
     }
 
     /* TYPOGRAFI */
+
+    h2{
+        font-family: "larken", sans-serif;
+        font-weight: 500;
+        font-style: medium;
+        font-size: 7.2vw;
+        line-height: 125%;
+        color: #01385F;
+        margin-bottom: 25px;
+    }
 
     h3{
         font-family: "larken", sans-serif;
         font-weight: 500;
         font-style: medium;
-        font-size: 35px;
-        line-height: 40px;
+        font-size: 7vw;
+        line-height: 125%;
         color: #01385F;
         margin-bottom: 25px;
     }
@@ -223,7 +238,7 @@ p{
     p{
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        font-size: 20px; 
+        font-size: 3.5vw; 
         color: #000;
         line-height: 165%;
         margin-bottom: 10px;
