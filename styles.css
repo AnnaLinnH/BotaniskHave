@@ -83,8 +83,9 @@ a {
     padding-right: 20px;
     background-color: #BCB171;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px; 
-    line-height: 22px;
+    font-size: 1.3vw; 
+    line-height: 140%;
+    letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 600;
     color: #686832;
@@ -98,6 +99,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-top:45px;
     margin-bottom:45px;
 }
@@ -131,28 +133,41 @@ section{
     margin-right:20px;
 }
 
-#stenpartiet{
-    background-image:url(images/stenpartietaaen.jpg);
-    background-repeat: no-repeat;
-    background-position: 50%;
+/* FOOTER */
+footer{
+    background-color: #BCB171;
 }
 
-#broen{
-    background-image: url(images/broen.jpg);
-    background-repeat: no-repeat;
-    background-position: 50%;
+.footerlayout{
+    display: flex;
+    justify-content: center;
+    width:85%;
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom:80px;
 }
 
-#aakanderogcafeen{
-    background-image: url(images/aakanderogcafeen1.png);
-    background-repeat: no-repeat;
-    background-position: 50%;
+.footerbox{
+    width: 38%;
+    padding: 20px;
 }
 
-#insta{
-    background-image: url(images/insta.jpg);
-    background-repeat: no-repeat;
-    background-position: 50%;
+.lillefooterbox{
+    width:24%;
+    padding: 20px;
+}
+
+footer p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw; 
+    color: #01385F;
+    line-height: 165%;
+}
+
+footer a{
+    color: #01385F;
+    text-decoration: underline;
 }
 
 /* TYPOGRAFI */
@@ -257,6 +272,60 @@ p{
         justify-content: center;
     }
 
+    /* KNAP */
+
+    .button {
+        width:max-content;
+        padding-top:12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #BCB171;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vw; 
+        line-height: 140%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #686832;
+        margin:auto;
+        margin-top: 30px;
+        border-radius: 90px;
+    }
+
+    /* FOOTER */
+
+    .footerlayout{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerbox{
+        display:none;
+    }
+
+    .lillefooterbox{
+        display:none;
+    }
+
+    .mobilfooterbox{
+        width: 85%;
+    }
+
+    footer p{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 3.5vw; 
+        color: #01385F;
+        line-height: 165%;
+        margin-bottom:40px;
+    }
+    
+    footer a{
+        color: #01385F;
+        text-decoration: underline;
+    }
+
     /* TYPOGRAFI */
 
     h2{
@@ -297,5 +366,9 @@ p{
 
     #laptopnav{
         display:block;
+    }
+
+    .mobilfooterbox{
+        display:none;
     }
 }
