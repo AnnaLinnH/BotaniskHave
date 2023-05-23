@@ -138,6 +138,15 @@ section{
     margin-bottom: 40px;
 }
 
+.oversigtsbox1{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:auto;
+    margin-bottom: 40px;
+}
+
 .oversigtskort{
     width:25%;
     text-align: center;
@@ -352,6 +361,16 @@ p{
         margin-bottom: 40px;
     }
 
+    .oversigtsbox1{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin:auto;
+        margin-bottom: 40px;
+    }
+
     .oversigtskort{
         width:100%;
         text-align: center;
@@ -395,6 +414,16 @@ p{
     footer a{
         color: #01385F;
         text-decoration: underline;
+    }
+
+    /* LISTE */
+    ul{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 3.5vw; 
+        color: #000;
+        line-height: 165%;
+        margin-bottom: 10px;
     }
 
     /* TYPOGRAFI */
