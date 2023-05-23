@@ -127,13 +127,6 @@ section{
     margin-right:20px;
 }
 
-.fixedkortbillede{
-    width: 40%;
-    height: auto;
-    margin-left:20px;
-    margin-right:20px;
-}
-
 /* OPLEVELSES OVERSIGT */
 
 .oversigtsbox{
@@ -154,6 +147,16 @@ section{
     width:85%;
     height: auto;
     margin: 15px;
+}
+
+/* LISTE */
+ul{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw; 
+    color: #000;
+    line-height: 165%;
+    margin-bottom: 10px;
 }
 
 /* FOOTER */
