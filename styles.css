@@ -74,6 +74,10 @@ a {
     color:black;
 }
 
+.underlined{
+    text-decoration: underline;
+}
+
 /* KNAP */
 .button {
     width:max-content;
@@ -92,6 +96,7 @@ a {
     margin:auto;
     margin-top: 30px;
     border-radius: 90px;
+    text-decoration: none;
 }
 
 /* LAYOUT */
@@ -116,6 +121,16 @@ section{
 .center{
     text-align: center;
     margin:auto;
+}
+
+.kolonner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.halvkolonne{
+    width:47%;
+    padding-right:20px;
 }
 
 /* BILLEDER */
@@ -162,10 +177,50 @@ section{
 ul{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.5vw; 
+    font-size: 1.4vw; 
     color: #000;
     line-height: 165%;
     margin-bottom: 10px;
+}
+
+/* VÆKSTHUSENE DROPDOWN BOX */
+.box{
+    width:90%;
+    margin:auto;
+    margin-bottom:70px;
+}
+
+input {
+    display: none;
+}
+
+label {
+    display: block;
+    padding-left: 10px;    
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px #000 solid;
+    color: #000;
+    transition: ease .5s;
+}
+
+label:hover {
+    background: #BCB171;
+}
+
+.content {
+    padding-left:10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+input + label + .content {
+    display: none;
+}
+
+input:checked + label + .content {
+    display: block;
 }
 
 /* FOOTER */
@@ -250,7 +305,7 @@ h4{
 p{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.5vw; 
+    font-size: 1.4vw; 
     color: #000;
     line-height: 165%;
     margin-bottom: 10px;
@@ -326,6 +381,16 @@ p{
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
+    }
+
+    .kolonner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .halvkolonne{
+        width:90%;
     }
 
     /* KNAP */
