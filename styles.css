@@ -263,6 +263,56 @@ input:checked + label + .content {
     display: block;
 }
 
+/* OVERSIGTSKORT */
+.oversigtskort{
+    width: 100%;
+}
+
+.laptopmap{
+    width:100%;
+}
+
+.kortbox{
+    position:absolute;
+    top: 65vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    background-color: #F2EFE9;
+    opacity: 80%;
+    margin-top:40%;
+}
+
+.kortoverskrift1{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "larken", sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 80px;
+    line-height: 125%;
+    color: #01385F;
+    margin-bottom: 25px;
+}
+
+.kortoverskrift2{
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "larken", sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 40px;
+    line-height: 125%;
+    color: #01385F;
+    margin-bottom: 25px;
+}
+
 /* FOOTER */
 footer{
     background-color: #BCB171;
@@ -523,12 +573,13 @@ p{
 
     .oversigtsbox{
         width: 95%;
+        height:auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
         margin:auto;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 
     .oversigtsbox1{
@@ -551,6 +602,37 @@ p{
         width:85%;
         height: auto;
         margin: 15px;
+    }
+
+    /* OVERSIGTSKORT */
+    .oversigtskort{
+        width: 100%;
+    }
+
+    .laptopmap{
+        display:none;
+    }
+
+    .mobilemap{
+        width:100%;
+    }
+
+    .kortbox{
+        display:none;
+    }
+
+    .kortoverskrift1{
+        display:none;
+    }
+
+    .kortoverskrift2{
+        display:none;
+    }
+
+    .oversigtsboxmobil{
+        width:90%;
+        margin:auto;
+        margin-bottom:40px;
     }
 
     /* FOOTER */
@@ -678,7 +760,39 @@ p{
     }
 }
 
-/*LAPTOP LAYOUT*/
+/* STOR TABLET LAYOUT*/
+@media only screen and (max-width: 1200px){
+    .kortbox{
+        position:absolute;
+        top: 60vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        margin: auto;
+        padding: 20px;
+        background-color: #F2EFE9;
+        opacity: 80%;
+        margin-top:40%;
+    }
+}
+
+/* LILLE TABLET LAYOUT*/
+@media only screen and (max-width: 1000px){
+    .kortbox{
+        position:absolute;
+        top: 51vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        margin: auto;
+        padding: 20px;
+        background-color: #F2EFE9;
+        opacity: 80%;
+        margin-top:40%;
+    }
+}
+
+/*  LAPTOP LAYOUT*/
 @media only screen and (min-width: 820px){
     #mobilenav{
         display:none;
@@ -689,6 +803,14 @@ p{
     }
 
     .mobilfooterbox{
+        display:none;
+    }
+
+    .mobilemap{
+        display:none;
+    }
+
+    .oversigtsboxmobil{
         display:none;
     }
 }
