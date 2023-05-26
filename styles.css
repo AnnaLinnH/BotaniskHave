@@ -99,21 +99,31 @@ a {
     text-decoration: none;
 }
 
+.tilbage{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw; 
+    color: #000;
+    line-height: 100%;
+    margin-left: 5vw;
+    text-decoration: underline;
+}
+
 /* LAYOUT */
 section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top:45px;
-    margin-bottom:45px;
+    margin-top:3vw;
+    margin-bottom:3vw;
 }
 
 .kort{
     width: 47%;
     height: auto;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:1.5vw;
+    margin-right:1.5vw;
     padding:15px;
     text-align: left;
 }
@@ -150,18 +160,18 @@ section{
 .halvkolonne{
     width:48%;
     height: auto;
-    padding-right:20px;
+    padding-right:1vw;
 }
 
 .tredjedelkolonne{
     width:33%;
     height: auto;
-    padding-right:20px;
+    padding-right:1vw;
 }
 
 .totredjedelkolonne{
     width:63%;
-    padding-right: 10px;
+    padding-right: 1vw;
 }
 
 /* PARKERING */
@@ -481,6 +491,16 @@ p{
         display:none;
     }
 
+    /* VIDEO */
+
+    #laptopvideo{
+        display: none;
+    }
+
+    #mobilvideo{
+        display: block;
+    }
+
     /* MAIN LAYOUT */
     section{
         display: flex;
@@ -503,11 +523,8 @@ p{
         display:block;
     }
 
-    .fixedkortbillede{
-        width: 85%;
-        height: 85vw;
-        margin:auto;
-        display:block;
+    .mobilcenter{
+        text-align: center;
     }
 
     .reverse{
@@ -580,6 +597,16 @@ p{
         margin:auto;
         margin-top: 30px;
         border-radius: 90px;
+    }
+
+    .tilbage{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 3vw; 
+        color: #000;
+        line-height: 250%;
+        margin-left: 7vw;
+        text-decoration: underline;
     }
 
     /* OPLEVELSES OVERSIGT */
@@ -837,5 +864,13 @@ p{
 
     .oversigtsboxmobil{
         display:none;
+    }
+
+    #mobilvideo{
+        display: none;
+    }
+
+    #laptopvideo{
+        display:block;
     }
 }
