@@ -264,7 +264,7 @@ input:checked + label + .content {
 }
 
 /* OVERSIGTSKORT */
-.oversigtskort{
+.kortoversigt{
     width: 100%;
 }
 
@@ -279,6 +279,7 @@ input:checked + label + .content {
     transform: translate(-50%, -50%);
     width: 85%;
     margin: auto;
+    text-align:center;
     padding: 20px;
     background-color: #F2EFE9;
     opacity: 80%;
@@ -311,6 +312,18 @@ input:checked + label + .content {
     line-height: 125%;
     color: #01385F;
     margin-bottom: 25px;
+}
+
+/* GOOGLE MAPS */
+
+.googlemaps{
+    position: relative;
+    width: 40%;
+}
+
+.googlemaps iframe{
+    width: 100%;
+    height: 40vw;
 }
 
 /* FOOTER */
@@ -633,6 +646,18 @@ p{
         width:90%;
         margin:auto;
         margin-bottom:40px;
+    }
+
+    /* GOOGLE MAPS */
+
+    .googlemaps{
+        position: relative;
+        width: 90%;
+    }
+    
+    .googlemaps iframe{
+        width: 100%;
+        height: 90vw;
     }
 
     /* FOOTER */
