@@ -78,6 +78,12 @@ a {
     text-decoration: underline;
 }
 
+/* VIDEO */
+
+video{
+    width: 100%;
+}
+
 /* KNAP */
 .button {
     width:max-content;
@@ -248,10 +254,19 @@ label {
     display: block;
     padding-left: 10px;    
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-bottom: 1px #000 solid;
     color: #000;
     transition: ease .5s;
+}
+
+label span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw; 
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 label:hover {
@@ -263,6 +278,7 @@ label:hover {
     padding-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #000;
+    text-transform: none;
 }
 
 input + label + .content {
@@ -303,7 +319,6 @@ input:checked + label + .content {
     transform: translate(-50%, -50%);
     font-family: "larken", sans-serif;
     font-weight: 500;
-    font-style: medium;
     font-size: 80px;
     line-height: 125%;
     color: #01385F;
@@ -317,7 +332,6 @@ input:checked + label + .content {
     transform: translate(-50%, -50%);
     font-family: "larken", sans-serif;
     font-weight: 500;
-    font-style: medium;
     font-size: 40px;
     line-height: 125%;
     color: #01385F;
@@ -377,7 +391,6 @@ footer a{
 h1{
     font-family: "larken", sans-serif;
     font-weight: 500;
-    font-style: medium;
     font-size: 5vw;
     line-height: 125%;
     color: #01385F;
@@ -387,7 +400,6 @@ h1{
 h2{
     font-family: "larken", sans-serif;
     font-weight: 500;
-    font-style: medium;
     font-size: 4vw;
     line-height: 125%;
     color: #01385F;
@@ -397,7 +409,6 @@ h2{
 h3{
     font-family: "larken", sans-serif;
     font-weight: 500;
-    font-style: medium;
     font-size: 3.5vw;
     line-height: 125%;
     color: #01385F;
@@ -418,7 +429,6 @@ h4{
 h5{
     font-family: "larken", sans-serif;
     font-weight: 500;
-    font-style: medium;
     font-size: 2.5vw;
     line-height: 135%;
     color: #01385F;
@@ -428,14 +438,13 @@ h5{
 h6{
     font-family: "larken", sans-serif;
     font-weight: 500;
-    font-style: medium;
     font-size: 6vw;
     line-height: 125%;
     color: #01385F;
     margin-bottom: 25px;
 }
 
-h7{
+.h7{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.4vw; 
@@ -466,13 +475,23 @@ p{
         z-index:2;
         top:0px;
         margin-top:-30px;
+        margin-bottom: 10px;
+    }
+
+    #mobillogo{
+        width: 60vw;
+    }
+
+    #mobilburgermenu{
+        width: 10vw;
     }
 
     nav a{
         text-decoration: none;
         color: black;
         text-align: center;
-        padding: 30px;
+        padding: 20px;
+        padding-top: 30px;
         font-size: 18px;
         font-family: 'Inter', sans-serif;
         text-transform: uppercase;
@@ -505,8 +524,8 @@ p{
     section{
         display: flex;
         justify-content: center;
-        margin-top:25px;
-        margin-bottom:25px;
+        margin-top:40px;
+        margin-bottom:40px;
     }
     
     .kort{
@@ -571,7 +590,7 @@ p{
     /* PARKERING */
 
     .parkering{
-        width:85%;
+        width:80%;
         margin:auto;
         margin-bottom: 30px;
         margin-top: 30px;
@@ -587,8 +606,8 @@ p{
         padding-left: 20px;
         padding-right: 20px;
         background-color: #BCB171;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 3vw; 
+        font-family: 'Inter', sans-serif;
+        font-size:4vw; 
         line-height: 140%;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -709,7 +728,7 @@ p{
     footer p{
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        font-size: 3.5vw; 
+        font-size: 3.7vw; 
         color: #01385F;
         line-height: 165%;
         margin-bottom:40px;
@@ -724,7 +743,7 @@ p{
     ul{
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        font-size: 3.5vw; 
+        font-size: 4.5vw; 
         color: #000;
         line-height: 165%;
         margin-bottom: 10px;
@@ -734,8 +753,7 @@ p{
     h1{
         font-family: "larken", sans-serif;
         font-weight: 500;
-        font-style: medium;
-        font-size: 8vw;
+        font-size: 9vw;
         line-height: 125%;
         color: #01385F;
         margin-bottom: 25px;
@@ -744,8 +762,7 @@ p{
     h2{
         font-family: "larken", sans-serif;
         font-weight: 500;
-        font-style: medium;
-        font-size: 7.2vw;
+        font-size: 7.5vw;
         line-height: 125%;
         color: #01385F;
         margin-bottom: 25px;
@@ -754,7 +771,6 @@ p{
     h3{
         font-family: "larken", sans-serif;
         font-weight: 500;
-        font-style: medium;
         font-size: 7vw;
         line-height: 125%;
         color: #01385F;
@@ -775,7 +791,6 @@ p{
     h5{
         font-family: "larken", sans-serif;
         font-weight: 500;
-        font-style: medium;
         font-size: 5vw;
         line-height: 135%;
         color: #01385F;
@@ -785,17 +800,16 @@ p{
     h6{
         font-family: "larken", sans-serif;
         font-weight: 500;
-        font-style: medium;
         font-size: 9vw;
         line-height: 125%;
         color: #01385F;
         margin-bottom: 25px;
     }
     
-    h7{
+    .h7{
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        font-size: 3.5vw; 
+        font-size: 4.5vw; 
         font-style: italic;
         color:#01385F;
         line-height: 165%;
@@ -805,10 +819,19 @@ p{
     p{
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        font-size: 3.5vw; 
+        font-size: 4.5vw; 
         color: #000;
         line-height: 165%;
         margin-bottom: 10px;
+    }
+
+    label span{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 5vw; 
+        line-height: 150%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
 }
 

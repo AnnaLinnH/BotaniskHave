@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +11,12 @@
     <header> 
         <div id="mobilenavbox">
             <nav id="mobilenav">
-                <a href="index.html"><img src="images/logo.png" alt="botanisk have logo" width="350px"></a>
-                <a href="menu.html"><img src="images/burgermenu.png" alt="menu" width="50px"></a>
+                <a href="index.html"><img src="images/logo.png" alt="botanisk have logo" id="mobillogo"></a>
+                <a href="menu.html"><img src="images/burgermenu.png" alt="menu" id="mobilburgermenu"></a>
             </nav>
         </div>
         <div id="headerlaptop">
-            <a href="index.html" id="logo"><img src="images/logo.png" alt="botanisk have logo" width="350px"></a>
+            <a href="index.html" id="logo"><img src="images/logo.png" alt="botanisk have logo" width="350"></a>
         </div>
         <div id="headerbox">
             <nav id="laptopnav">
@@ -32,7 +32,9 @@
         <a href="oplevelser.html" class="tilbage">Tilbage</a>
         <section class="reverse">
             <div class="kort">
-                <div class="mobilcenter"><h1>Om væksthusene</h1></div>
+                <div class="mobilcenter">
+                    <h1>Om væksthusene</h1>
+                </div>
                 <p>Væksthusene i Botanisk Have blev opført i perioden 1968-71, og det oprindelige snegleformede bygningsværk i Victoriansk byggestil er tegnet af arkitekt C.F. Møllers Tegnestue, som også står bag arkitekturen på Aarhus Universitet, som Væksthusene hører under.</p>
                 <br>
                 <p>I 2014 blev Væksthusene udvidet med Tropehuset, og de øvrige bygninger blev ombygget og renoveret. Væksthusene er støttet af Aarhus Universitet, Aarhus Kommune og Realdania samt Nordea-fonden.</p>
@@ -81,8 +83,8 @@
          </section>
          <div class="box">
             <h2>Praktisk</h2>
-            <input type="checkbox" id="title1" />
-            <label for="title1"><h4>Åbningstider</h4></label>
+            <input type="checkbox" id="title1">
+            <label for="title1"><span>Åbningstider</span></label>
             
             <div class="content">
                 <p><b>Åbningstider 1. september - 31. maj</b></p>
@@ -99,59 +101,59 @@
                 <p>Væksthusenes Cafe åbner alle dage kl. 10. Køkkenet lukker en halv time før de nævnte lukketider. </p>
             </div>
             
-            <input type="checkbox" id="title2" />
-            <label for="title2"><h4>Adgang</h4></label>
+            <input type="checkbox" id="title2">
+            <label for="title2"><span>Adgang</span></label>
             
             <div class="content">
-            <p>Der er altid gratis adgang for alle til væksthusene.</p>
+                <p>Der er altid gratis adgang for alle til væksthusene.</p>
             </div>
             
-            <input type="checkbox" id="title3" />
-            <label for="title3"><h4>Rundvisning</h4></label>
+            <input type="checkbox" id="title3">
+            <label for="title3"><span>Rundvisning</span></label>
             
             <div class="content">
                 <div class="kolonner">
                     <div class="halvkolonne">
-                    <p>I væksthusene er der også mulighed for at få en guidet rundvisning af en af vores dygtige medarbejdere, som har en masse viden om planteverdenen, som de utrolig gerne vil dele med jer. Læs mere om mulighederne for det nedenfor.<br><br></p>
-                    <p><b>Skoler og institutioner</b><br>
-                    Skoletjenesten tilbyder en lang række formidlingstilbud til elever i skoler, gymnasier og andre uddannelsesinstitutioner. <br><a href="https://sciencemuseerne.dk/til-skoler/tilbud-til-skoler-og-uddannelser" class="underlined" >Læs mere om de forskellige tilbud eller bestil formidlingstilbud.</a></p>
-                    <br>
-                    <p><b>Foreninger og privatpersoner</b><br>
-                    Er I en forening eller gruppe, der har lyst til en spændende oplevelse, kan I bestille en rundvisning i Væksthusene.</p>
-                    <p>I bliver guidet gennem Væksthusenes fire klimazoner med fortællinger om natur og planter fra hele verden. Hør de gode historier, oplev naturens mangfoldighed og få et indblik i, hvordan vi både påvirker naturen og er helt afhængige af den.</p>
+                        <p>I væksthusene er der også mulighed for at få en guidet rundvisning af en af vores dygtige medarbejdere, som har en masse viden om planteverdenen, som de utrolig gerne vil dele med jer. Læs mere om mulighederne for det nedenfor.<br><br></p>
+                        <p><b>Skoler og institutioner</b><br>
+                        Skoletjenesten tilbyder en lang række formidlingstilbud til elever i skoler, gymnasier og andre uddannelsesinstitutioner. <br><a href="https://sciencemuseerne.dk/til-skoler/tilbud-til-skoler-og-uddannelser" class="underlined" >Læs mere om de forskellige tilbud eller bestil formidlingstilbud.</a></p>
+                        <br>
+                        <p><b>Foreninger og privatpersoner</b><br>
+                        Er I en forening eller gruppe, der har lyst til en spændende oplevelse, kan I bestille en rundvisning i Væksthusene.</p>
+                        <p>I bliver guidet gennem Væksthusenes fire klimazoner med fortællinger om natur og planter fra hele verden. Hør de gode historier, oplev naturens mangfoldighed og få et indblik i, hvordan vi både påvirker naturen og er helt afhængige af den.</p>
                     </div>
                     <div class="halvkolonne">
-                    <p><b>Priser for formidling</b></p>
-                    <p>Hverdage:<br>
-                    Rundvisning (max 15 pers.): 475 kr.<br>
-                    Weekend:<br>
-                    Rundvisning (max 15 pers.): 575 kr.<br>
-                    <br></p>
-                    <p>Lørdag og søndag kan der kun bestilles rundvisning til kl. 10.00 og 15.30. I ferier og på helligdage kan der ikke bestilles rundvisning. <a href="https://sciencemuseerne.dk/botanisk-have/planlaeg-besoeg/bestillingsformular" class="underlined">Bestil en rundvisning.</a></p>
-                    <br>
-                    <p>OBS: Alle formidlingstilbud og rundvisninger skal bestilles mindst to uger i forvejen. Ved afbestillingen senere end 3 hverdage før bestilt besøg afkræves et gebyr på 500 kr.</p>
-                    <br>
-                    <p><b>Gå selv-grupper</b><br>
-                    Kontakt os på telefon 87 15 54 15 tirsdag-fredag, kl. 10-14 eller på mail sm@au.dk.</p>
+                        <p><b>Priser for formidling</b></p>
+                        <p>Hverdage:<br>
+                        Rundvisning (max 15 pers.): 475 kr.<br>
+                        Weekend:<br>
+                        Rundvisning (max 15 pers.): 575 kr.<br>
+                        <br></p>
+                        <p>Lørdag og søndag kan der kun bestilles rundvisning til kl. 10.00 og 15.30. I ferier og på helligdage kan der ikke bestilles rundvisning. <a href="https://sciencemuseerne.dk/botanisk-have/planlaeg-besoeg/bestillingsformular" class="underlined">Bestil en rundvisning.</a></p>
+                        <br>
+                        <p>OBS: Alle formidlingstilbud og rundvisninger skal bestilles mindst to uger i forvejen. Ved afbestillingen senere end 3 hverdage før bestilt besøg afkræves et gebyr på 500 kr.</p>
+                        <br>
+                        <p><b>Gå selv-grupper</b><br>
+                        Kontakt os på telefon 87 15 54 15 tirsdag-fredag, kl. 10-14 eller på mail sm@au.dk.</p>
                     </div>
                 </div>
             </div>
             
-            <input type="checkbox" id="title4" />
-            <label for="title4"><h4>Obevaring</h4></label>
+            <input type="checkbox" id="title4">
+            <label for="title4"><span>Opbevaring</span></label>
             
             <div class="content">
-            <p>Når du kommer ind i væksthusene, går til venstre mod indgangen og gennem det runde udstillingslokale, så kommer du forbi en opbevaringsvæg, inden du træder indenfor i det smukke planteunivers.</p>
-            <p>Alle rum har en tilhørende nøgle, så du trygt kan låse dine ting ind i rummet og fortsætte din tur igennem væksthusene. </p>
+                <p>Når du kommer ind i væksthusene, går til venstre mod indgangen og gennem det runde udstillingslokale, så kommer du forbi en opbevaringsvæg, inden du træder indenfor i det smukke planteunivers.</p>
+                <p>Alle rum har en tilhørende nøgle, så du trygt kan låse dine ting ind i rummet og fortsætte din tur igennem væksthusene. </p>
             </div>
             
-            <input type="checkbox" id="title5" />
-            <label for="title5"><h4>Kørestol</h4></label>
+            <input type="checkbox" id="title5">
+            <label for="title5"><span>Kørestol</span></label>
             
             <div class="content">
-            <p>P-pladser for kørestolsbrugere findes tæt ved Væksthusenes hoveddør.</p>
-            <p>I Væksthusene er der brede stier, som giver nem adgang for kørestol.</p>
-            <p>Stierne i Botanisk Have kan visse steder være stejle. En del af stierne er asfalterede.</p>
+                <p>P-pladser for kørestolsbrugere findes tæt ved Væksthusenes hoveddør.</p>
+                <p>I Væksthusene er der brede stier, som giver nem adgang for kørestol.</p>
+                <p>Stierne i Botanisk Have kan visse steder være stejle. En del af stierne er asfalterede.</p>
             </div>
          </div>
     </main>
@@ -164,7 +166,7 @@
                 Tlf: 87 15 54 15<br>
                 info@botaniskhave.dk<br>
                 <br>
-            </p>
+                </p>
                 <p>Website designed by Anna Linn Studios</p>
             </div>
             <div class="footerbox">
